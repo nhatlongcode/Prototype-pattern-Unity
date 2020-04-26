@@ -8,5 +8,6 @@ public class Spawner2 : MonoBehaviour
     void Update()
     {
         if (Random.Range(0, 100) < 50) ProcCube.CloneSphere(this.transform.position);
+        
     }
 }
